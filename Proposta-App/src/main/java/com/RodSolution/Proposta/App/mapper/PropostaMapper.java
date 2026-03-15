@@ -6,9 +6,11 @@ import com.RodSolution.Proposta.App.model.entities.Proposta;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
+import org.springframework.context.annotation.Bean;
 
 import java.text.NumberFormat;
 import java.util.List;
+import java.util.Locale;
 
 @Mapper(componentModel = "spring")
 public interface PropostaMapper {
